@@ -1,14 +1,492 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search</title>
-</head>
-<body>
-  <form action="https://www.google.com/search">
-    <input type="text" name="q">
-    <input type="submit" value="Google Search">
-</form>
+<html lang="en" class="no-js" style="scroll-behavior: smooth;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Alan-portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="developed by alan reji>
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="alendev" />
+    <link rel="shortcut icon" href="./IMG_20230506_084218_136-01.jpeg">
+
+
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body class="page">
+
+    <div class="lm-animated-bg"></div>
+    
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <!-- Scroll To Top Button -->
+    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Scroll To Top Button -->
+
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+
+        <!-- Header -->
+        <header id="site_header" class="header">
+          <div class="header-content clearfix">
+                
+            <!-- Text Logo -->
+            <div class="text-logo">
+              <a href="index.html">
+                <div class="logo-symbol">A</div>
+                <div class="logo-text">Alan <span>Reji</span></div>
+              </a>
+            </div>
+            <!-- /Text Logo -->
+
+            <!-- Navigation -->
+            <div class="site-nav mobile-menu-hide">
+              <ul class="leven-classic-menu site-main-menu">
+                <li >
+                  <a class="menu-item menu-item-has-children current-menu-item" href="index.html">About Me</a>
+                <li class="menu-item">
+                  <a href="https://www.linkedin.com/in/alan-reji-182687254/">Linkedin</a>
+                </li>
+                <li >
+                  <a  href="#blog">Skills</a>
+                </li>
+
+                <li class="menu-item">
+                  <a>Contact</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item">
+                      <a href="https://www.instagram.com/the_soul_lovr_/" target="_blank">Instagram</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="https://www.linkedin.com/in/alan-reji-182687254/" target="_blank">Linkedin</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="https://twitter.com/AlenRej23542251" target="_blank">Twitter</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="https://wa.me/9188851735?text=" target="_blank">Whatsapp</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <a class="menu-toggle mobile-visible">
+              <i class="fa fa-bars"></i>
+            </a>
+            <!-- Mobile Menu Toggle -->
+          </div>
+        </header>
+        <!-- /Header -->
+
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">    
+              <div id="content" class="page-content site-content single-post" role="main">
+                <!-- Home Page Top Part -->
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12">
+                    <div class="home-content">
+                      <div class="row flex-v-align">
+                        
+                        <div class="col-sm-12 col-md-5 col-lg-5">
+                          <div class="home-photo">
+                            <div class="hp-inner" style="background-image: url(https://i.ibb.co/N3g0S15/IMG-20230506-084218-136-01.jpg);">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-7 col-lg-7">
+                          <div class="home-text hp-left">
+                            <div class="owl-carousel text-rotation">                                    
+                              <div class="item">
+                                <h4>Frontend-developer</h4>
+                              </div>
+
+                              <div class="item">
+                                <h4>Web Designer</h4>
+                              </div>
+                            </div>
+                              
+                            <h1>Alan Reji</h1>
+                            <p>I am a student currently studying at the College of Engineering Perumon, where I am passionate about honing my skills and knowledge in the field of web development.</p>
+                                 
+                            <div class="home-buttons">
+                              <a href="https://www.linkedin.com/in/alan-reji-182687254/" target="_blank" class="btn btn-primary">View Linkedin</a>
+                              <a href="https://drive.google.com/file/d/1qQhCwfoxWOj4jjb44ID-jAHPatWX_WJq/view?usp=sharing" target="_blank" class="btn btn-secondary">Resume</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Home Page Top Part -->
+
+                <!-- Services -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-50"></div>
+
+                    <div class="block-title" id="blog">
+                      <h2>My Skills</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-pen"></i>
+                        </div>
+      
+                        <div class="ci-text">
+                          <h4>Leadership</h4>
+                          <p>I possess strong leadership skills, effectively guiding and motivating teams to achieve shared goals while fostering a collaborative and inclusive work environment. I am adept at making strategic decisions, delegating tasks, and inspiring others to perform at their best.</p>
+                        </div>
+                      </div>
+    
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-display"></i>
+                        </div>
+     
+                        <div class="ci-text">
+                          <h4>Web Design</h4>
+                          <p>I am proficient in web design, leveraging my creativity and technical expertise to craft visually appealing and user-friendly websites that engage and inspire visitors. I excel in implementing responsive design principles, optimizing performance, and integrating intuitive navigation for an enhanced user experience.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-shop"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Problem Solving</h4>
+                          <p>I have strong problem-solving skills that allow me to approach challenges with a systematic and analytical mindset, enabling me to find effective solutions.
+                            My problem-solving abilities enable me to identify and address issues efficiently, utilizing critical thinking and creativity to overcome obstacles and achieve desired outcomes.</p>
+                        </div>
+                      </div>
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-megaphone"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Providing Mentor support</h4>
+                          <p>I possess excellent mentor support skills, offering guidance and advice to individuals, helping them navigate challenges and achieve their goals.
+                            My mentor support skills involve actively listening, providing constructive feedback, and empowering others to enhance their skills and confidence.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Services -->
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-20"></div>
+
+                    <!-- Testimonials -->
+                    <div class="block-title">
+                      <h2>Educational Background</h2>
+                    </div>
+
+                    <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="2" data-items="2">
+                      <!-- Testimonial 1 -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                             <p>Currently studiying for Btech in Computer Science Engineering under KTU.</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author">College Of Engineering Perumon</h5>
+                            <p class="testimonial-firm">Perumon,kollam</p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+                      </div>
+                      <!-- End of Testimonial 1 -->
+
+                      <!-- Testimonial 2 -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                         
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                             <p>Scored 96% in Higher Secondary Education(kerala board)</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author">S.N.S.M.H.S.S</h5>
+                            <p class="testimonial-firm">Elampalloor,Kollam</p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+                      </div>
+                      <!-- End of Testimonial 2 -->
+
+                      <!-- End of Testimonial 3 -->
+                      <div class="testimonial-item">
+
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                          
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                            <p>Scored 84% in 10th from CBSE</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author">Trinity Lyceum </h5>
+                            <p class="testimonial-firm">Nanthirical,Kollam</p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                          <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+
+                      </div>
+                      <!-- End of Testimonial 3 -->
+                    </div>
+                    <!-- /Testimonials -->
+
+                   
+
+                <!-- knowledge -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="block-title">
+                      <h2>Expertise</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-3">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-heart"></i>
+                      <h4>HTML</h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-3">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-clock"></i>
+                      <h4>CSS</h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-3 ">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-star"></i>
+                      <h4>figma</h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-3 ">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-cup"></i>
+                      <h4>JavaScript</h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                  </div>
+                </div>
+                <!-- /knowledge -->
+
+                <div class="p-40"></div>
+
+                <!-- projects-->
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <div class="block-title">
+                      <h2>projects and Certificates</h2>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <div class="fw-pricing clearfix row">
+                      
+                      <div class="fw-package-wrap col-md-4 ">
+                        <div class="fw-package">
+                          <div class="fw-heading-row">
+                            <span>Buildmyweb</span>
+                          </div>
+                          
+                          <div class="fw-pricing-row">
+                            <span></span>
+                            <small>click below</small>
+                          </div>
+                          
+                          <div class="fw-button-row">
+                            <a href="https://alan200505.github.io/myweb/" target="_blank" class="btn btn-primary">View</a>
+                          </div>
+
+                          <div class="fw-default-row">Welcome to my first website, where I'm excited to share my journey and showcase my skills as I venture into the world of web development.</div>
+                          
+                        </div>
+                      </div>
+   
+                      <div class="fw-package-wrap col-md-4 highlight-col ">
+                        <div class="fw-package">
+                          <div class="fw-heading-row">
+                            <span>Certificate on Cybersecurity</span>
+                          </div>
+                          
+                          <div class="fw-pricing-row">
+                            <span></span>
+                            <small>click below</small>
+                          </div>
+
+                          <div class="fw-button-row">
+                            <a href="https://www.pdffiller.com/jsfiller-desk17/?isShareViaLink=1&requestHash=0220a84fd0371af7747e3e28d4845c9cf25e51a7c12376d793e6960ab6bb43d5&lang=en&projectId=1242151808&loader=tips&MEDIUM_PDFJS=true&PAGE_REARRANGE_V2_MVP=true&isPageRearrangeV2MVP=true&jsf-page-rearrange-v2=false#1d97a9fbd94547d69be16255c20e21a4" target="_blank" class="btn btn-primary">View Credential</a>
+                          </div>
+                          
+                          <div class="fw-default-row">This certificate recognizes my successful completion of a comprehensive cybersecurity program, validating my knowledge and skills in protecting digital assets and mitigating online threats.</div>
+                      
+                          <div class="fw-default-row">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="fw-package-wrap col-md-4 default-col ">
+                      <div class="fw-package">
+                        <div class="fw-heading-row">
+                          <span>Group Discussion</span>
+                        </div>
+                        
+                        <div class="fw-pricing-row">
+                          <span></span>
+                          <small>click below</small>
+                        </div>
+                        
+                        <div class="fw-button-row">
+                          <a href="https://www.pdffiller.com/jsfiller-desk17/?isShareViaLink=1&requestHash=ec4e30ee1b25f85f72b6b23b956849dde77e20ac94899789824c0d85e667bee1&lang=en&projectId=1242147725&loader=tips&MEDIUM_PDFJS=true&PAGE_REARRANGE_V2_MVP=true&isPageRearrangeV2MVP=true&jsf-page-rearrange-v2=false#e5bb835119f045acac59abd2aee04379" target="_blank" class="btn btn-primary">View Credential</a>
+                        </div>
+                        
+                        <div class="fw-default-row">This certificate acknowledges my proficiency in group discussion techniques, highlighting my ability to actively engage, collaborate, and contribute effectively within diverse team environments.</div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Pricing -->
+              </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="site-footer clearfix">
+          <div class="footer-social">
+            <ul class="footer-social-links">
+              <li>
+                <a href="https://twitter.com/AlenRej23542251" target="_blank">Twitter</a>
+              </li>
+
+              <li>
+                <a href="https://www.facebook.com/alen.reji.5205" target="_blank">Facebook</a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/the_soul_lovr_/" target="_blank">Instagram</a>
+              </li>
+            </ul>
+          </div>
+              
+          <div class="footer-copyrights">
+            <p>developed by Alan Reji</p>
+          </div>
+        </footer>
+        <!-- /Footer -->
+        
+      </div>
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7cf540811a0c85c6","version":"2023.4.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}' crossorigin="anonymous"></script>
 </body>
 </html>
